@@ -146,7 +146,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "2_Layer_MCU_Datalogger_Geber/")
+			(outputdirectory "4_Layer_MCU_Datalogger_Geber/")
 		)
 	)
 	(property "poroject_name" "MCU datalogger and clock")
@@ -203,7 +203,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0.74 2.42 180)
+			(at 2.24 0.17 180)
 			(layer "F.SilkS")
 			(uuid "a46910d6-526a-415f-95d0-da6af3c7aed1")
 			(effects
@@ -617,7 +617,7 @@
 		(at 131.57 141.25 180)
 		(tags "ds1337s+ ")
 		(property "Reference" "U4"
-			(at 0 0 0)
+			(at -0.18 -1.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "371816ed-22c9-46a2-9aab-cc555d5ba5d1")
@@ -1228,7 +1228,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at -0.18 -1.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "8dfea864-f979-4ea4-995c-4839b1b69ffe")
@@ -2855,7 +2855,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J2"
-			(at -4.46 4.13 180)
+			(at 2.2 0 180)
 			(layer "F.SilkS")
 			(uuid "7f3d71a3-8bdf-468d-9f8b-d5aa0fc95b9a")
 			(effects
@@ -3658,7 +3658,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D2"
-			(at -2.9711 0.18 0)
+			(at -2.73 0.18 0)
 			(layer "F.SilkS")
 			(uuid "498d71ac-2033-4394-a53a-3071cd612fc7")
 			(effects
@@ -3893,7 +3893,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at -0.97 -1.7 0)
+			(at -0.01 -1.7 0)
 			(layer "F.SilkS")
 			(uuid "1fbf3349-db54-4943-869b-ad6a12f2b089")
 			(effects
@@ -3904,7 +3904,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 0 1.68 0)
+			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(uuid "a3ad3663-6b79-4863-87a0-ca8addfb2aef")
 			(effects
@@ -4338,7 +4338,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at -2.95 0.08 0)
+			(at -2.94 0.21 0)
 			(layer "F.SilkS")
 			(uuid "dd52933e-4220-429a-8f6f-bf8906d438c8")
 			(effects
@@ -4775,7 +4775,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at -0.96 -2.0711 180)
+			(at -2.29 0.0089 180)
 			(layer "F.SilkS")
 			(uuid "f8abcd9c-fa14-4129-a728-88d561438c24")
 			(effects
@@ -5190,7 +5190,7 @@
 		(descr "Through hole straight pin header, 1x09, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x09 2.54mm single row")
 		(property "Reference" "J3"
-			(at 4.26 -0.02 180)
+			(at 3.95 0.32 180)
 			(layer "F.SilkS")
 			(uuid "438de49f-27f0-4a80-9886-684238becf6a")
 			(effects
@@ -5548,7 +5548,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0.64 -2.05 0)
+			(at -0.54 -1.83 0)
 			(layer "F.SilkS")
 			(uuid "9e16e60d-27f2-4cfd-a931-e1e27dc5d0ae")
 			(effects
@@ -5559,7 +5559,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 0 1.45 0)
+			(at 2.64 -0.05 0)
 			(layer "F.SilkS")
 			(uuid "24ac9853-fe70-445d-a35e-1ecb9afb92f8")
 			(effects
@@ -6315,7 +6315,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at -1.17 -1.33 90)
+			(at -2.17 0.17 180)
 			(layer "F.SilkS")
 			(uuid "a7cfad20-e27b-45d7-a2db-cbbd3b7766bd")
 			(effects
@@ -6517,7 +6517,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
-			(at 0 -3.4 0)
+			(at 0.3389 -3.4 0)
 			(layer "F.SilkS")
 			(uuid "a75f7747-6c0a-4e5f-92c8-972061e6cd9b")
 			(effects
@@ -6528,7 +6528,7 @@
 			)
 		)
 		(property "Value" "24LC1025"
-			(at 0 3.4 0)
+			(at -4.4111 -0.1 90)
 			(layer "F.SilkS")
 			(uuid "42dbaa0a-286a-48ec-bd56-382e169ceb28")
 			(effects
@@ -6842,7 +6842,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at -2.89 -0.09 0)
+			(at -2.88 -0.08 0)
 			(layer "F.SilkS")
 			(uuid "a8d8677a-43f3-4049-b192-6a4ab93864ef")
 			(effects
@@ -7055,7 +7055,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at -0.1 -1.6 0)
+			(at 2.59 0.04 0)
 			(layer "F.SilkS")
 			(uuid "78050c81-a074-4009-aa8c-bcf4f0ea12e6")
 			(effects
@@ -9687,7 +9687,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at -1.18 1.11 90)
+			(at -2.18 0.11 180)
 			(layer "F.SilkS")
 			(uuid "f4ddbcd5-7f51-44f3-aa65-41db48cf8afa")
 			(effects
@@ -9900,7 +9900,7 @@
 			)
 		)
 		(property "Value" "24LC1025"
-			(at 0 3.4 0)
+			(at 0 3.17 0)
 			(layer "F.SilkS")
 			(uuid "78b6a30a-6aca-4c53-99d9-fadbee8fa388")
 			(effects
@@ -10197,8 +10197,8 @@
 		)
 	)
 	(gr_rect
-		(start 84.5 126.5)
-		(end 90 129.5)
+		(start 83.75 126.15)
+		(end 89.25 129.15)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -10335,6 +10335,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Vcc"
+		(at 106.75 145.25 0)
+		(layer "F.SilkS")
+		(uuid "146363bc-4213-46c9-a919-1f213661a19e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "D7"
 		(at 98.3 145.25 0)
 		(layer "F.SilkS")
@@ -10456,7 +10468,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 90.03 123.76 0)
+		(at 90.08 123.8 0)
 		(layer "F.SilkS")
 		(uuid "88fa3c42-cdbf-402c-90c2-7d0e1eadf917")
 		(effects
@@ -10492,7 +10504,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 109.5 144.5 0)
+		(at 109.5 145.25 0)
 		(layer "F.SilkS")
 		(uuid "a55ca639-07fd-407e-a4f4-cbb51e2079ee")
 		(effects
@@ -10504,7 +10516,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 122.85 141.04 0)
+		(at 119.5 141.04 0)
 		(layer "F.SilkS")
 		(uuid "b8504437-6824-4cc3-8140-2f022e93eed5")
 		(effects
@@ -10517,7 +10529,7 @@
 		)
 	)
 	(gr_text "ICSP"
-		(at 84.5 126 0)
+		(at 84.5 125.34 0)
 		(layer "F.SilkS")
 		(uuid "bc581c98-1fa8-401d-9a02-4cffd4cbc87a")
 		(effects
@@ -10553,7 +10565,7 @@
 		)
 	)
 	(gr_text "MISO |VCC\nSCK  |MOSI\nRESET|GND"
-		(at 85 129 0)
+		(at 84.25 128.65 0)
 		(layer "F.SilkS")
 		(uuid "c360688e-b3e4-42e8-a246-84d4c245fa8f")
 		(effects
@@ -10605,11 +10617,11 @@
 		(layer "F.SilkS")
 		(uuid "83e68428-2879-41f3-9ed3-cb5f42afe748")
 		(pts
-			(xy 142.13 116.91) (xy 142.13 150.79)
+			(xy 146.41 116.91) (xy 146.41 150.79)
 		)
 		(height -10.09)
 		(gr_text "33.8800 mm"
-			(at 151.12 133.85 90)
+			(at 155.4 133.85 90)
 			(layer "F.SilkS")
 			(uuid "83e68428-2879-41f3-9ed3-cb5f42afe748")
 			(effects
@@ -10638,11 +10650,11 @@
 		(layer "F.SilkS")
 		(uuid "8f042c54-5952-4c2c-95e9-32241d5f0e58")
 		(pts
-			(xy 142.13 116.91) (xy 80.27 116.91)
+			(xy 142.13 113.889999) (xy 80.27 113.889999)
 		)
 		(height 7.139999)
 		(gr_text "61.8600 mm"
-			(at 111.2 108.670001 0)
+			(at 111.2 105.65 0)
 			(layer "F.SilkS")
 			(uuid "8f042c54-5952-4c2c-95e9-32241d5f0e58")
 			(effects
@@ -11012,7 +11024,7 @@
 		(uuid "0181dc45-7a32-4f1f-a308-4a2548edc834")
 	)
 	(via
-		(at 113 142.75)
+		(at 112.5 142.75)
 		(size 0.9)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -11146,7 +11158,7 @@
 		(uuid "407bddeb-179d-42fc-b923-133218515145")
 	)
 	(via
-		(at 113 143.75)
+		(at 112.5 143.75)
 		(size 0.9)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -11253,7 +11265,7 @@
 		(uuid "77dcf25d-4f37-4ea2-a114-0985ab8cc339")
 	)
 	(via
-		(at 91.5 124)
+		(at 91.5 124.5)
 		(size 0.9)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -11343,7 +11355,7 @@
 		(uuid "9604334f-bb11-4e5c-91df-0bde149edc99")
 	)
 	(via
-		(at 93.5 124)
+		(at 93.5 124.5)
 		(size 0.9)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -11476,7 +11488,7 @@
 		(uuid "e87358ea-ecc5-49b4-9375-2581213ce1f9")
 	)
 	(via
-		(at 92.5 124)
+		(at 92.5 124.5)
 		(size 0.9)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
